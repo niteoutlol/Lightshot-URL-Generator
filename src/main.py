@@ -13,7 +13,6 @@ def web():
     url = url + str(random.choice(digit))
 
   url = url + "/"
-  webbrowser.open(url)
   print(url)
   
 
